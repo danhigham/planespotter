@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: planespotter-fe
-        image: harbor.hon.pas.run:443/planespotter/frontend
+        image: harbor.hon.paas.run:443/planespotter/frontend
         imagePullPolicy: IfNotPresent
         env:
         - name: PLANESPOTTER_API_ENDPOINT
